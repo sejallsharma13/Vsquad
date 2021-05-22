@@ -1,0 +1,123 @@
+.hero-container {
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+.hero-container > h2 {
+    color: #fff;
+    font-size: 60px;
+    margin-top: 100px ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.containerpy-5 >p {
+    margin-top: 5%;
+    color: #000;
+	font: size 30px;
+	font-weight:300;
+	line-height: 22px;
+    padding:10px;
+    text-align: center;
+}
+.containerpy-5 >img{
+    width: 80%;
+    height: 700px;
+	margin:auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.col{
+    margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.fac{
+    width:80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.w3-card-4 {
+    flex-basis: 31%;
+	border-radius:10px;
+	margin-bottom: 5%;
+	text-align: left;
+}
+.col h3{
+    color: #000;
+    font-size: 20px;
+    margin-top: 10px ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.w3-card-4 img{
+    width: 100%;
+	border-radius: 10px;
+}
+.fac>h5{
+    color: #000;
+    font-size: 60px;
+    text-align: center;
+}
+.w3-card-4 p{
+    color: #000;
+	font-size:14px;
+	font-weight:300;
+	line-height: 22px;
+    padding:10px;
+    text-align: center;
+}
+.events{
+	width:80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+h4{
+	font-size: 36px;
+	font-weight: 600;
+}
+.events-col{
+	flex-basis: 32%;
+	border-radius:10px;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden; 
+	display: block;
+}
+.layer{
+	background: transparent;
+	height: 100%;
+	width:100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	transition: 0.5s;
+}
+.layer:hover{
+	background: rgba(226,0,0,0.7);
+}
+.layer h6{
+	width: 100%;
+	color: #fff;
+	font-size: 26px;
+	bottom: 0;
+	left:50%;
+	transform: translate(-50%);
+	position: absolute;
+	opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h6{
+	bottom: 49%;
+	opacity: 1;
+}
